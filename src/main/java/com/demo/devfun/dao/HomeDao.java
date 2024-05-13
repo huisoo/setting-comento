@@ -9,5 +9,6 @@ import java.util.Map;
 public interface HomeDao {
 
     int getTestCount();
+
     List<Map<String, Object>> getRequests();
 }
